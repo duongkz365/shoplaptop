@@ -1,0 +1,273 @@
+body {
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    background-color: #f8eef8;
+    color: #000;
+}
+
+.content {
+    padding: 20px;
+    margin-top: $height-header;
+    margin-left: $width-sidebar;
+    position: relative;
+    z-index: 1;
+}
+
+.page-link {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    align-items: center;
+    gap: 0 4px;
+    background-color: #fff;
+    padding: 10px 0 10px 20px;
+
+    span {
+        i {
+            font-size: 10px;
+            color: #555;
+        }
+    }
+
+    a {
+        color: rgba($color: $primary-color, $alpha: 0.7);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        font-size: 18px;
+
+        i {
+            color: #000;
+        }
+
+        &.active {
+            color: $primary-color;
+            text-decoration: none !important;
+        }
+    }
+}
+
+.width-50 {
+    width: 50px;
+}
+
+.width-100 {
+    width: 100px;
+}
+
+.width-150 {
+    width: 150px;
+}
+
+.width-200 {
+    width: 200px;
+}
+
+.width-250 {
+    width: 250px;
+}
+
+.width-320 {
+    width: 320px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.rounded-2px {
+    border-radius: 2px !important;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+
+    &--submit {
+        color: #fff;
+        background-color: #405189;
+
+        &:hover {
+            background-color: #34426f;
+            border-color: #303c66;
+        }
+    }
+
+    &--share {
+        color: #fff;
+        background-color: #00c689;
+        border-radius: 2px;
+
+        i {
+            margin-right: 8px;
+        }
+
+        &:hover {
+            color: #fff;
+            background-color: #00a06f;
+        }
+    }
+
+    &--destroy {
+        color: #000;
+        background-color: #d2d2dc;
+        &:hover {
+            background-color: #e2e6ea;
+            border-color: #dae0e5;
+        }
+    }
+
+    &--add {
+        color: #fff;
+        background-color: #37e016;
+        border: 1px solid #000;
+
+        i {
+            padding-right: 8px;
+        }
+    }
+}
+
+.btn-action {
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    padding: 2px 12px;
+    display: inline-block;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    i {
+        font-size: 18px;
+    }
+
+    &--view {
+        color: #405189;
+        border-color: #405189;
+
+        &:hover {
+            background-color: #405189;
+            color: #fff;
+        }
+    }
+
+    &--edit {
+        color: #fff;
+        background-color: #0298cf;
+        border: none;
+        padding: 8px 10px;
+        border-radius: 50%;
+    }
+
+    &--delete {
+        border: none;
+        color: #fff;
+        padding: 8px 10px;
+        background-color: #ed1c24;
+        border-radius: 50%;
+    }
+
+    &--accept {
+        color: #6200ee;
+        border-color: #6200ee;
+
+        &:hover {
+            background-color: #6200ee;
+            color: #fff;
+        }
+    }
+
+    &--destroy {
+        color: #555;
+        border-color: #555;
+
+        &:hover {
+            background-color: #555;
+            color: #fff;
+        }
+    }
+
+    &--disable {
+        color: #555;
+        border: none;
+        cursor: not-allowed;
+        opacity: 0.6;
+
+        i {
+            padding: 2px 4px;
+            border: 1px solid #555;
+            border-radius: 50%;
+        }
+    }
+
+    &--submit {
+        border-radius: 6px;
+        color: #fff;
+        background-color: #37e016;
+        border-color: #405189;
+        padding: 6px 20px;
+    }
+
+    &--back {
+        border-radius: 6px;
+        color: #000;
+        background-color: #ccc;
+        border-color: #000;
+        padding: 6px 20px;
+    }
+}
+
+.btn-status {
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 6px;
+    letter-spacing: 0.2px;
+    display: inline-block;
+    border-radius: 2px;
+
+    &--success {
+        background-color: $primary-color;
+    }
+
+    &--pending {
+        background-color: #f1536e;
+    }
+
+    &--close {
+        background-color: #00c689;
+    }
+
+    &--update {
+        background-color: #405189;
+        text-decoration: none;
+    }
+}
