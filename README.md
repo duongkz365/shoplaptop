@@ -33,19 +33,5 @@ UI
 ![image](https://github.com/duongkz365/shoplaptop/assets/87511212/3a92f905-44f9-45b3-9a9a-7a2fccde5453)
 
 
-
-ShopLaptop/
-├── Admin/
-│ ├── App/
-│ ├── public/
-│ ├── .htaccess
-│ ├── .htaccess
-| ├── index.php
-│ ├── App/
-│ ├── public/
-├── product_img/
-│ ├── imageName  (jpg, jpn, jpeg,...)
-├── Database.sql
-├── index.php
-├── README.md
-├── .gitignore
+## Structure 
+![image](https://github.com/duongkz365/shoplaptop/assets/87511212/b6caa47e-dd19-4608-92fd-b7cb5c97d50e)
